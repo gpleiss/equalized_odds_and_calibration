@@ -208,6 +208,9 @@ if __name__ == '__main__':
     import pandas as pd
     import sys
 
+    if not len(sys.argv) == 2:
+        raise RuntimeError('Invalid number of arguments')
+
     # Load the validation set scores from csvs
     data_filename = sys.argv[1]
     test_and_val_data = pd.read_csv(sys.argv[1])
