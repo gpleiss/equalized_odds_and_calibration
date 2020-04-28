@@ -2,7 +2,7 @@
 
 We test two post-processing definitions of non-discrimination:
 - Equalized Odds - from ["Equality of Opportunity in Supervised Learning"](https://arxiv.org/abs/1610.02413) - [1]
-- A calibrated relaxation of Equalized Odds - from ["On Fairness and Calibration"](https://arxiv.org/abs/1610.02413) - [2]
+- A calibrated relaxation of Equalized Odds - from ["On Fairness and Calibration"](https://arxiv.org/abs/1709.02012) - [2]
 
 Given two demographic groups, equalized odds aims to ensure that no error rate disproportionately affects any group.
 In other words, both groups should have the same false-positive rate, and both groups should have the same false-negative rate.
